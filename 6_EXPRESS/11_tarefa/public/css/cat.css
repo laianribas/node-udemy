@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    background-color: rgb(201, 147, 78);
+}
+
+body a {
+    text-decoration: none;
+    color: rgb(165, 237, 246);
+}
