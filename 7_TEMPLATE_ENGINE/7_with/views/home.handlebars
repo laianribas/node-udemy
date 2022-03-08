@@ -1,0 +1,13 @@
+
+  <h1>Olá Handlebars</h1>
+  <p>bem vindo</p>
+<p>Meu nome é {{user.name}} e eu tenho {{user.age}} anos</p>
+{{#if approved}}
+  <p>Parabéns! Seu cadastro está completo</p>
+{{else}}
+  <p>Confirme o acesso pelo seu email</p>
+{{/if}}
+{{#if auth}}
+  <p>Você está logado, <a href="/dashboard">clique aqui</a> para acessar o dashboard!</p>
+  <p>Você está logado, <a href="/movies">clique aqui</a> para acessar os filmes</p>
+{{/if}}
