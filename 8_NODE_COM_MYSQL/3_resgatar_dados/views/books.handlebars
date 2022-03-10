@@ -1,0 +1,16 @@
+<h1>Meus Livros</h1>
+
+<div class='books-container'>
+  {{#each books}}
+    <div>
+      #
+      {{this.id}}
+      -
+      <span class='bold'>{{this.title}}</span>
+      -
+      {{this.pages}}
+      páginas
+    </div>
+  {{/each}}
+  <a href='/'>Voltar</a>
+</div>
