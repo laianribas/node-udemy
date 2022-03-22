@@ -1,0 +1,21 @@
+<h1>Criar Produto</h1>
+<form action='/products/edit' method='POST'>
+  <div class='form-control'>
+    <input type='hidden' name='id' value='{{product._id}}' />
+    <label for='name'>Nome do Produto:</label>
+    <input type='text' name='name' value='{{product.name}}' />
+  </div>
+  <div class='form-control'>
+    <label for='image'>Imagem do Produto:</label>
+    <input type='text' name='image' value='{{product.image}}' />
+  </div>
+  <div class='form-control'>
+    <label for='price'>Preço do Produto:</label>
+    <input type='text' name='price' value='{{product.price}}' placeholder />
+  </div>
+  <div class='form-control'>
+    <label for='description'>Nome do Produto:</label>
+    <textarea name='description'>{{product.description}}</textarea>
+  </div>
+  <input type='submit' value='Editar' class='btn' />
+</form>

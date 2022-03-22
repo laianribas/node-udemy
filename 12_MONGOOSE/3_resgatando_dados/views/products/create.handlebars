@@ -1,0 +1,24 @@
+<h1>Criar Produto</h1>
+<form action='/products/create' method='POST'>
+  <div class='form-control'>
+    <label for='name'>Nome do Produto:</label>
+    <input type='text' name='name' placeholder='digite o nome do Produto' />
+  </div>
+  <div class='form-control'>
+    <label for='image'>Imagem do Produto:</label>
+    <input
+      type='text'
+      name='image'
+      placeholder='digite a url da imagem Produto'
+    />
+  </div>
+  <div class='form-control'>
+    <label for='price'>Preço do Produto:</label>
+    <input type='text' name='price' placeholder='digite o Preço do Produto' />
+  </div>
+  <div class='form-control'>
+    <label for='description'>Nome do Produto:</label>
+    <textarea name='description' placeholder='Descrição do Produto'></textarea>
+  </div>
+  <input type='submit' value='Cadastrar' class='btn' />
+</form>
